@@ -24,7 +24,7 @@ body {
   background-color: #2a2a2a;
   border: 1px solid #3a3a3a;
   border-radius: 16px;
-  padding: 40px;
+  padding: 30px;
   position: sticky;
   top: 40px;
 }
@@ -34,7 +34,6 @@ body {
   border-radius: 16px;
 }
 .profile {
-  margin-top: 10px;
   text-align: center;
 }
 .profile img {
@@ -76,14 +75,14 @@ body {
   text-decoration: none;
 }
 .contacts {
-  margin-top: 35px;
+  margin-top: 15px;
   border-top: 2px solid #3a3a3a;
 }
 .icon {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-top: 25px;
+  margin-top: 15px;
 }
 .contact {
   display: flex;
@@ -107,13 +106,13 @@ body {
   font-weight: 600;
 }
 .social-media {
-  margin-top: 40px;
+  margin-top: 15px;
   border-top: 2px solid #3a3a3a;
   display: flex;
   justify-content: space-around;
 }
 .social-media a {
-  margin-top: 20px;
+  margin-top: 10px;
   color: #e0e0e0;
   font-size: 1.5rem;
 }
@@ -122,13 +121,13 @@ body {
   color: #ffbf00;
 }
 .other-platform {
-  margin-top: 40px;
+  margin-top: 20px;
   border-top: 2px solid #3a3a3a;
   display: flex;
   justify-content: space-around;
 }
 .other-platform a {
-  margin-top: 20px;
+  margin-top: 13px;
   color: #e0e0e0;
   font-size: 1.5rem;
 }
