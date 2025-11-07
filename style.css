@@ -16,17 +16,15 @@ body {
   max-width: 1200px;
   grid-template-columns: 350px 1fr;
   gap: 40px;
-  padding-top: 30px;
+  padding-top: 20px;
   margin: auto;
 }
 .sidebar {
   height: 90vh;
-  width: 320px; 
-  min-width: 320px;
   background-color: #2a2a2a;
   border: 1px solid #3a3a3a;
   border-radius: 16px;
-  padding: 30px;
+  padding: 25px;
   position: sticky;
   top: 40px;
 }
@@ -51,9 +49,9 @@ body {
   color: #e0e0e0;
 }
 .profile p{
-  margin-top: 8px;
+  margin-top: 7px;
   background-color: #1e1e1e;
-  padding: 5px 15px;
+  padding: 5px 10px;
   color: #ffbf00;
   width: 75%;
   text-align: center;
@@ -323,5 +321,6 @@ nav {
   display: inline-block;
   text-decoration: none;
 }
+
 
 
