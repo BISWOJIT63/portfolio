@@ -58,7 +58,7 @@ body {
   border-radius: 40px;
   font-weight: bold;
   border: 2px solid #3a3a3a;
-  display: inline-block;
+  display: inline;
   text-decoration: none;
 }
 .profile .resume {
@@ -321,6 +321,7 @@ nav {
   display: inline-block;
   text-decoration: none;
 }
+
 
 
 
