@@ -16,7 +16,7 @@ body {
   max-width: 1200px;
   grid-template-columns: 350px 1fr;
   gap: 40px;
-  padding-top: 40px;
+  padding-top: 30px;
   margin: auto;
 }
 .sidebar {
@@ -26,7 +26,7 @@ body {
   background-color: #2a2a2a;
   border: 1px solid #3a3a3a;
   border-radius: 16px;
-  padding: 40px;
+  padding: 30px;
   position: sticky;
   top: 40px;
 }
@@ -47,11 +47,11 @@ body {
 .profile h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  margin-top: 16px;
+  margin-top: 6px;
   color: #e0e0e0;
 }
 .profile p{
-  margin-top: 12px;
+  margin-top: 8px;
   background-color: #1e1e1e;
   padding: 5px 15px;
   color: #ffbf00;
@@ -77,14 +77,14 @@ body {
   text-decoration: none;
 }
 .contacts {
-  margin-top: 30px;
+  margin-top: 20px;
   border-top: 2px solid #3a3a3a;
 }
 .icon {
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 .contact {
   display: flex;
@@ -108,13 +108,13 @@ body {
   font-weight: 600;
 }
 .social-media {
-  margin-top: 25px;
+  margin-top: 20px;
   border-top: 2px solid #3a3a3a;
   display: flex;
   justify-content: space-around;
 }
 .social-media a {
-  margin-top: 25px;
+  margin-top: 20px;
   color: #e0e0e0;
   font-size: 1.5rem;
 }
@@ -323,4 +323,5 @@ nav {
   display: inline-block;
   text-decoration: none;
 }
+
 
