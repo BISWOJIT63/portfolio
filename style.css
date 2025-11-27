@@ -19,6 +19,7 @@ body {
   padding-top: 40px;
   margin: auto;
 }
+
 .sidebar {
   height: 90vh;
   width: 320px; 
@@ -322,4 +323,60 @@ nav {
   border: 2px solid #3a3a3a;
   display: inline-block;
   text-decoration: none;
+}
+@media (max-width: 600px) {
+
+  .container {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 20px;
+  }
+
+  .sidebar {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    position: static;
+    padding: 25px;
+  }
+
+  .profile img {
+    height: 80px;
+    width: 80px;
+  }
+
+  nav {
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  #navigation a {
+    font-size: 1rem;
+  }
+
+  .main-content {
+    padding: 20px;
+  }
+
+  .project {
+    grid-template-columns: 1fr; /* 2-column → 1 column */
+  }
+
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    gap: 20px;
+  }
+
+  .items {
+    padding: 15px;
+  }
+
+  .p img {
+    height: 150px;
+  }
+
+  .sidebar p, .value p {
+    font-size: 0.9rem;
+  }
 }
